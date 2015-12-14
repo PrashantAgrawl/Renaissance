@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    NavigationView.OnNavigationItemSelectedListener
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Speakers" />
+        <item
+            android:id="@+id/nav_panel"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Panel Discussion" />
+        <item
+            android:id="@+id/nav_startup"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Startup Fair" />
+        <item
+            android:id="@+id/nav_workshops"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Workshops" />
+        <item
+            android:id="@+id/nav_etalks"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="E Talks" />
+        <item
+            android:id="@+id/nav_comp"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Competitions" />
+        <item
+            android:id="@+id/nav_cpi"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="CPI" />
+    </group>
+
+    <item android:title="STUDENT">
+        <menu>
+            <item
+                android:id="@+id/nav_student"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Student Team" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Login/Register" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>
