@@ -9,5 +9,5 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/kuchbhi" />
+        android:id="@+id/fragText" />
 </LinearLayout>
